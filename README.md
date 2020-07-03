@@ -1,2 +1,2 @@
-# NJUSEZYZ.github.io
-my first Web
+# njusezyz.github.io
+This is my first Web
