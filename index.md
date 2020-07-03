@@ -1,37 +1,203 @@
-## Welcome to GitHub Pages
+<html>
+	<head>
+		<title>My First Web Page </title>
+	</head>
+	<body>
+		<meta charset="utf-8">
+		<h1 id="top">
+			Welcome to my first Web.
+		</h1>
+		<p>
+			This is the first <b>Web page</b> that I created.
+		</p>
+		<h2 id="catalogue">
+			目录
+		</h2>
+		<p>
+			<ol>
+				<li><a href="#text">文本</a></li>
+				<li><a href="#list">列表</a></li>
+				<li><a href="#link">链接</a></li>
+				<li><a href="#image">图像</a></li>
 
-You can use the [editor on GitHub](https://github.com/NJUSEZYZ/NJUSEZYZ.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+				<li><a href="#developer">开发者</a></li>
+			</ol>
+		</p>
+		<h2 id="text">
+			文本
+		</h2>
+		<p>
+			<h3>
+			加粗和斜体
+			</h3>
+			<p>
+				This is how we make a word <b>bold.</b>
+				<br />
+				This is how we make a word <i>italic.</i>
+			</p>
+			<h3>
+				上标和下标
+			</h3>
+			<p>
+				An example of sup: E = MC<sup>2</sup>.
+				<br />
+				An example of sub: CO<sub>2</sub>.	
+			</p>
+			<h3>
+				换行符和水平线
+			</h3>
+			<p>
+				An example of line break:
+				<br />	
+				An example of horizontal rule is in address
+			</p>
+			<h3>
+				加粗和强调
+			</h3>
+			<p>
+				<strong>
+					This is an example of strong.
+				</strong>
+				<br />
+				<em>
+					This ia an example of emphasis.
+				</em>
+			</p>
+			<h3>
+				引用
+			</h3>
+			<p>
+				<blockquote cite="http://nju.today/">
+					This is an example of quotation.
+				</blockquote>
+			</p>
+			<h3>
+				缩写
+			</h3>
+			<p>
+				This is an example of abbreviation: <abbr title="National Basketball Association">NBA</abbr>
+			</p>
+			<h3>
+				引文和定义
+			</h3>
+			<p>
+				An example of citation: <cite>The old man an the sea</cite>.
+				<br />
+				An example of definition: <dfn>E=MC<sup>2</sup></dfn>.
+			</p>
+			<h3>
+				内容的修改
+			</h3>
+			<p>
+				This is an example of <ins>ins</ins> and <del>del</del>.
+				This is an example of <s>s</s>.
+			</p>
+		</p>
+		
+		<h2 id="list">
+			列表
+		</h2>
+		<p>
+			有序列表
+			<ol>
+				<li>one</li>
+				<li>two</li>
+				<li>three</li>
+			</ol>
+			无序列表
+			<ul type="square">
+				<li>one</li>
+				<li>two</li>
+				<li>three</li>
+			</ul>
+			定义列表
+			<dl>
+				<dt>HTML</dt>
+				<dd>Hypertext Markup Language</dd>
+				<dt>CSS</dt>
+				<dd>Cascading Style Sheet</dd>
+			</dl>
+			嵌套列表
+			<ul>
+				<li>number
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>··· ···</li>
+					</ul>
+				</li>
+				<li>letter
+					uppercase
+					<ul>
+						<li>A</li>
+						<li>B</li>
+						<li>C</li>
+						<li>··· ···</li>
+					</ul>
+					lowercase
+					<ul>
+						<li>a</li>
+						<li>b</li>
+						<li>c</li>
+						<li>··· ···</li>
+					</ul>
+				</li>
+			</ul>
+		</p>
+		<h2 id="link">
+			链接
+		</h2>
+		<p>
+			<ul>绝对URL
+				<li>An example of link:<a href="https://www.icourse163.org/">中国大学MOOC</a></li>
+			</ul>
+			<ul>相对URL
+				<li>相同文件夹内 <a href="HelloWorld.html">Hello World</a></li>
+				<li>子文件夹内 <a href="hello_world/HelloWorld.html">Hello World</a></li>
+				<li>父文件夹内 <a href="../HelloWorld.html">Hello World</a></li>
+				<li>孙子文件夹内 略</li>
+				<li>祖父文件夹内 略</li>
+			</ul>
+			<ul>
+				EMAIL 链接
+				<li><a href="#developer">见设计者信息</a></li>
+			</ul>
+			<ul>
+				在新窗口打开
+				<li><a href="https://nju.today" target="_blank">Life In NJU</a>(open in new window)</li>
+			</ul>
+			<ul>
+				链接到特定位置
+				<li>当前页面的特定位置：<a href="#catalogue">见目录的构造</a></li>
+				<li>其他页面的特定位置：<a href="HelloWorld.html/#hello_world">Hello world</a></li>
+			</ul>
+		</p>
+		<h2 id="image">
+			图像
+		</h2>
+		<p>
+			
+			
+		</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/NJUSEZYZ/NJUSEZYZ.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+		<p><a href="#top">To The Top</a></p>
+	</body>
+	
+	<address id="developer">
+		<h3>
+			<hr />
+			设计者信息
+		</h3>
+		<p> 
+			<a href="mailto:zhaoyuzhou@smail.nju.edu.cn">Email</a>
+			<br />
+			Created by <abbr title="赵宇舟"><i>ZYZ.</i></abbr>
+		</p>
+	</address>	
+</html>
