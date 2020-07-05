@@ -1,0 +1,382 @@
+<html>
+	<meta charset="utf-8">
+	<head>
+		<title>表格</title>
+	</head>
+	<body>
+		<a href="../index.html">Back To Home</a>
+		<h2 id="table">
+			表格
+		</h2>
+		<p>
+			<h4>
+				基本表格结构
+			</h4>
+			<p>
+				<table>
+					<tr>
+						<td>1</td>
+						<td>2</td>
+						<td>3</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>5</td>
+						<td>6</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>8</td>
+						<td>9</td>
+					</tr>
+				</table>
+			</p>
+			<h4>
+				表格的标题
+			</h4>
+			<p>
+				<table>
+					<tr>
+						<th></th>
+						<th scope="col">Score</th>
+						<th scope="col">Rebound</th>						
+						<th scope="col">Assist</th>
+					</tr>
+					<tr>
+						<th scope="row">Stephen Curry</th>
+						<td>38</td>
+						<td>5</td>
+						<td>12</td>
+					</tr>
+					<tr>
+						<th scope="row">Lebron James</th>
+						<td>30</td>
+						<td>12</td>
+						<td>10</td>
+					</tr>
+				</table>
+			</p>
+			<h4>
+				跨行和跨列
+			</h4>
+			<p>
+				此处的跨行与跨列无法直接显现出，后续可借助 CSS 添加边框
+				<br>
+				<table>
+					<tr>
+						<th></th>
+						<th scope="col">ABC</th>
+						<th scope="col">BBC</th>
+						<th scope="col">CNN</th>
+					</tr>
+					<tr>
+						<th scope="row">6pm - 7pm</th>
+						<td>Baseball</td>
+						<td>Comdy</td>
+						<td>TV Show</td>
+					</tr>
+					<tr>
+						<th scope="row">7pm - 8pm</th>
+						<td colspan="3">News</td>
+					</tr>
+					<tr>
+						<th scope="row">8pm - 9pm</th>
+						<td rowspan="2">Movie</td>
+						<td>NBA</td>
+						<td>NCAA</td>
+					</tr>
+					<tr>
+						<th scope="row">9pm - 10pm</th>
+						<td>NHL</td>
+						<td>Football</td>
+					</tr>
+				</table>
+			</p>
+			<h4>
+				长表格
+			</h4>
+			<p id="HTML标签">
+				常用HTML标签的英文全称及简单描述
+				<table border="1">
+					<thead>
+						<th>HTML标签</th>
+						<th>英文全称</th>
+						<th>中文释义</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>a</td>
+							<td>Anchor</td>
+							<td>锚</td>
+						</tr>
+						<tr>
+							<td>abbr</td>
+							<td>Abbreviation</td>
+							<td>缩写词</td>
+						</tr>
+						<tr>
+							<td>acronym</td>
+							<td>Acronym</td>
+							<td>取首字母的缩写词</td>
+						</tr>
+						<tr>
+							<td>address </td>
+							<td>Address</td>
+							<td>地址</td>
+						</tr>
+						<tr>
+							<td>alt</td>
+							<td>alter</td>
+							<td>替用(一般是图片显示不出的提示)</td>
+						</tr>
+						<tr>
+							<td>b</td>
+							<td>Bold</td>
+							<td>粗体（文本）</td>
+						</tr>
+						<tr>
+							<td>bdo</td>
+							<td>Direction of Text Display</td>
+							<td>文本显示方向</td>
+						</tr>
+						<tr>
+							<td>big</td>
+							<td>Big</td>
+							<td>变大（文本）</td>
+						</tr>
+						<tr>
+							<td>blockquote</td>
+							<td>Block Quotation</td>
+							<td>区块引用语</td>
+						</tr>
+						<tr>
+							<td>br</td>
+							<td>Break</td>
+							<td>换行</td>
+						</tr>
+						<tr>
+							<td>cell</td>
+							<td>cell</td>
+							<td>巢</td>
+						</tr>
+						<tr>
+							<td>cellpadding</td>
+							<td>cellpadding</td>
+							<td>巢补白</td>
+						</tr>
+						<tr>
+							<td>cellspacing</td>
+							<td>cellspacing</td>
+							<td>巢空间</td>
+						</tr>
+						<tr>
+							<td>center</td>
+							<td>Centered</td>
+							<td>居中（文本）</td>
+						</tr>
+						<tr>
+							<td>cite</td>
+							<td>Citation</td>
+							<td>引用</td>
+						</tr>
+						<tr>
+							<td>code</td>
+							<td>Code</td>
+							<td>源代码（文本）</td>
+						</tr>
+						<tr>
+							<td>dd</td>
+							<td>Definition Description</td>
+							<td>定义描述</td>
+						</tr>
+						<tr>
+							<td>del</td>
+							<td>Deleted</td>
+							<td>删除（的文本）</td>
+						</tr>
+						<tr>
+							<td>dfn</td>
+							<td>Defines a Definition Term</td>
+							<td>定义定义条目</td>
+						</tr>
+						<tr>
+							<td>div</td>
+							<td>Division</td>
+							<td>分隔</td>
+						</tr>
+						<tr>
+							<td>dl</td>
+							<td>Definition List</td>
+							<td>定义列表</td>
+						</tr>
+						<tr>
+							<td>dt</td>
+							<td>Definition Term</td>
+							<td>定义术语</td>
+						</tr>
+						<tr>
+							<td>em</td>
+							<td>Emphasized</td>
+							<td>加重（文本）</td>
+						</tr>
+						<tr>
+							<td>font</td>
+							<td>Font</td>
+							<td>字体</td>
+						</tr>
+						<tr>
+							<td>h1~h6</td>
+							<td>Header 1 to Header 6</td>
+							<td>标题1到标题6</td>
+						</tr>
+						<tr>
+							<td>hr</td>
+							<td>Horizontal Rule</td>
+							<td>水平尺</td>
+						</tr>
+						<tr>
+							<td>href</td>
+							<td>hypertext reference</td>
+							<td>超文本引用</td>
+						</tr>
+						<tr>
+							<td>i</td>
+							<td>Italic</td>
+							<td>斜体（文本）</td>
+						</tr>
+						<tr>
+							<td>iframe</td>
+							<td>Inline frame</td>
+							<td>定义内联框架</td>
+						</tr>
+						<tr>
+							<td>ins</td>
+							<td>Inserted</td>
+							<td>插入（的文本）</td>
+						</tr>
+						<tr>
+							<td>kbd</td>
+							<td>Keyboard</td>
+							<td>键盘（文本）</td>
+						</tr>
+						<tr>
+							<td>li</td>
+							<td>List Item</td>
+							<td>列表项目</td>
+						</tr>
+						<tr>
+							<td>nl</td>
+							<td>navigation lists</td>
+							<td>导航列表</td>
+						</tr>
+						<tr>
+							<td>ol</td>
+							<td>Ordered List</td>
+							<td>排序列表</td>
+						</tr>
+						<tr>
+							<td>optgroup</td>
+							<td>Option group</td>
+							<td>定义选项组</td>
+						</tr>
+						<tr>
+							<td>p</td>
+							<td>Paragraph</td>
+							<td>段落</td>
+						</tr>
+						<tr>
+							<td>pre</td>
+							<td>Preformatted</td>
+							<td>预定义格式（文本 ）</td>
+						</tr>
+						<tr>
+							<td>q</td>
+							<td>Quotation</td>
+							<td>引用语</td>
+						</tr>
+						<tr>
+							<td>rel</td>
+							<td>Reload</td>
+							<td>加载</td>
+						</tr>
+						<tr>
+							<td>s/ strike</td>
+							<td>Strikethrough</td>
+							<td>删除线</td>
+						</tr>
+						<tr>
+							<td>samp</td>
+							<td>Sample</td>
+							<td>示例（文本</td>
+						</tr>
+						<tr>
+							<td>small</td>
+							<td>Small</td>
+							<td>变小（文本）</td>
+						</tr>
+						<tr>
+							<td>span</td>
+							<td>Span</td>
+							<td>范围</td>
+						</tr>
+						<tr>
+							<td>src</td>
+							<td>Source</td>
+							<td>源文件链接</td>
+						</tr>
+						<tr>
+							<td>strong</td>
+							<td>Strong</td>
+							<td>加重（文本）</td>
+						</tr>
+						<tr>
+							<td>sub</td>
+							<td>Subscripted</td>
+							<td>下标（文本）</td>
+						</tr>
+						<tr>
+							<td>sup</td>
+							<td>Superscripted</td>
+							<td>上标（文本）</td>
+						</tr>
+						<tr>
+							<td>td</td>
+							<td>table data cell</td>
+							<td>表格中的一个单元格</td>
+						</tr>
+						<tr>
+							<td>th</td>
+							<td>table header cell</td>
+							<td>表格中的表头</td>
+						</tr>
+						<tr>
+							<td>tr</td>
+							<td>table row</td>
+							<td>表格中的一行</td>
+						</tr>
+						<tr>
+							<td>tt</td>
+							<td>Teletype</td>
+							<td>打印机（文本）</td>
+						</tr>
+						<tr>
+							<td>u</td>
+							<td>Underlined</td>
+							<td>下划线（文本）</td>
+						</tr>
+						<tr>
+							<td>ul</td>
+							<td>Unordered List</td>
+							<td>不排序列表</td>
+							</tr>
+						<tr>
+							<td>var</td>
+							<td>Variable</td>
+							<td>变量（文本）</td>
+						</tr>
+					</tbody>
+				</table>
+			</p>
+		</p>
+	</body>
+</html>
