@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Flash、视频和音频</title>
+		<meta charset="utf-8">
+		<script type="text/javascript" 
+		src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js">
+		</script>
+		<script type="text/javascript">
+			var flashvars = {}
+			var params = {movie:"video/pupppy.swf"}
+			swfobject.embedSWF("flash/osplayer.swf", "snow", "400", "320", "8.0.0", flashvars. params);
+		</script>
+		<script type="text/javascript">
+			var flashvars = {}
+			var params = {,p3:"audio/test-audio.mp3"}
+			swfobject.embedSWF("flash/player_mp3_1.0.0.swf", "music-player", "200", "20", "8.0.0", flashvars. params);
+		</script>
+	</head>
+	<body>
+		<a href="../../index.html">Back To Home</a>
+		<h2>
+			Flash、视频和音频
+		</h2>
+		<p>
+			
+			<h3>
+				Video
+			</h3>
+			<p>
+				<h4>
+					Flash
+				</h4>
+				<div id="snow">
+					<p>
+						添加失败了
+					</p>
+				</div>
+				<h4>
+					向网页添加HTML5视频
+				</h4>
+				<video src="video/puppy.mp4"
+				poster="images/puppy.jpg" 
+				width="400"
+				height="300"
+				preload=""
+				controls=""
+				loop="">
+					<p>A video of a puppy</p>
+				</video>
+				<h4>
+					多个视频源
+				</h4>
+				<video poster="images/puppy.jpg" 
+				width="400"
+				height="300"
+				preload=""
+				controls=""
+				loop="">
+					<source src="video/puppy.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"'>
+					<source src="video/puppy.webm" type='video/webm;codecs="vp8, vorbis"'>
+					<p>A video of a puppy</p>
+				</video>
+			</p>
+			<h3>
+				Audio
+			</h3>
+			<p>
+				<h4>
+					添加 Flash MP3播放器
+				</h4>
+				<div id="music-player">
+					<p>wrong</p>
+				</div>
+				<h4>
+					向网页添加HTML5音频
+				</h4>
+				<audio src="audio/test-audio.ogg" controls="" autoplay="">
+					格式不支持
+				</audio>
+				<h4>
+					多个音频源
+				</h4>
+				<audio controls="" autoplay="">
+					<source src="audio/test-audio.ogg">
+					<source src="audio/test-audio.mp3">
+					<p>
+						格式不支持
+					</p>
+				</audio>
+
+			</p>
+			
+
+
+		</p>
+	</body>
+</html>
