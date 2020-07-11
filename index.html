@@ -6,12 +6,13 @@
 		<meta name="description" content="Its main aim is to help learn HTML, CSS and JavaScript.">
 		<meta name="keywords" content="html, css, javascript">
 		<meta http-equiv="author" content="zhaoyuzhou">
+		<link rel="stylesheet" type="text/css" href="indexstyle.css">
 	</head>
 	<body id="top">
 		<h1>
 			Welcome to my first Web.
 		</h1>
-		<p>
+		<p id="introduction">
 			This is the first <b>Web page</b> that I created.
 			<br>
 			It is still under building and its main aim is to help me learn HTML, CSS and JavaScript.
@@ -19,14 +20,12 @@
 			In the future, this Web will be my personal homepage.
 		</p>
 		<p>
-			<a href="src/table.html#HTML标签">HTML标签的英文全称及简单描述</a>
-			<br>
 			<a href="#developer">开发者信息</a>
 		</p>
 		<h2 id="htmlandcss">
 			HTML 与 CSS 学习目录
 		</h2>
-		<p>
+		<p class="list">
 			<ul type="circle">
 				HTML 部分
 				<li><a href="src/html/structure.html">结构</a></li>
@@ -40,6 +39,9 @@
 				<li><a href="src/html/flash-video-and-audio.html">Flash、视频和音频</a></li>
 				<li><a href="src/html/.html">HTML5布局</a></li>
 				<br>
+				<a href="src/table.html#HTML标签">HTML标签的英文全称及简单描述</a>
+			</ul>
+			<ul type="circle">
 				CSS 部分
 				<li><a href="src/css/introduction.html">CSS 简介</a></li>
 				<li><a href="src/css/color.html">颜色</a></li>
@@ -48,16 +50,17 @@
 				<li><a href="src/css/list-tablep-and-form.html">列表、表格和表单</a></li>
 				<li><a href="src/css/layout.html">布局</a></li>
 				<li><a href="src/css/image.html">图像</a></li>
-				<br>
+			</ul>
+			<ul type="circle">
 				其他
 				<li><a href="src/.html"></a>建站过程和设计方法</li>
 				<li><a href="src/.html"></a>实用信息</li>
 			</ul>
 		</p>
 		<h2 id="jscatalogue">
-			JavaScript学习目录
+			JavaScript 学习目录
 		</h2>
-		<p>
+		<p class="list">
 			<ul type="circle">
 				<li><a href=""></a></li>
 			</ul>
@@ -68,7 +71,7 @@
 	<address id="developer">
 		<h4>
 			<hr />
-			设计者信息
+			开发者信息
 		</h4>
 		<p> 
 			<a href="mailto:zhaoyuzhou@smail.nju.edu.cn">Email</a>
