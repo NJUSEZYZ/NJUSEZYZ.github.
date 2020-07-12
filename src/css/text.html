@@ -3,6 +3,44 @@
 	<head>
 		<title>文本</title>
 		<meta charset="utf-8">
+		<style type="text/css">
+			div.Serif {
+				font-family: Georgia, Times, "Times New Roman", serif;
+				font-size: 150%;
+
+			}
+			div.Sans-Serif {
+				font-family: Arial, Verdana, Helvetica, sans-serif;
+				font-size: 20px;
+				font-weight: bold;
+				font-style: italic;
+			}
+			div.Monospace {
+				font-family: Courier, "Courier New", monospace;
+				font-size: 14px;
+			}
+			div.Cursive {
+				font-family: "Comic Sans MS", "Monotype Corsiva", cursive;
+			}
+			div.Fantasy {
+				font-family: Haettenschweiler, Impact, fantasy;
+			}
+			@font-face {
+				font-family: 'ChunkFiveRegular';
+				src: url('fonts/chunkfive.eot');
+				src: url('fonts/chunkfive.eot?#iefix') format('embedded-opentype'),
+	     			url('fonts/chunkfive.woff') format('woff'),
+	     			url('fonts/chunkfive.ttf') format('truetype'),
+	     			url('fonts/chunkfive.svg#ChunkFiveRegular') format('svg');
+	     	}
+	     	div.more {
+	     		font-family: ChunkFiveRegular;
+	     	}
+	     	a {
+	     		text-decoration: none;
+	     		color: red;
+	     	}
+		</style>
 	</head>
 	<body>
 		<a href="../../index.html">Back To Home</a>
@@ -10,71 +48,58 @@
 			文本
 		</h2>
 		<p>
-			<h4>
-			加粗和斜体
-			</h4>
-			<p>
-				This is how we make a word <b>bold.</b>
-				<br />
-				This is how we make a word <i>italic.</i>
-			</p>
-			<h4>
-				上标和下标
-			</h4>
-			<p>
-				An example of sup: E = MC<sup>2</sup>.
-				<br />
-				An example of sub: CO<sub>2</sub>.	
-			</p>
-			<h4>
-				换行符和水平线
-			</h4>
-			<p>
-				An example of line break:
-				<br />	
-				An example of horizontal rule is in address
-			</p>
-			<h4>
-				加粗和强调
-			</h4>
-			<p>
-				<strong>
-					This is an example of strong.
-				</strong>
-				<br />
-				<em>
-					This ia an example of emphasis.
-				</em>
-			</p>
-			<h4>
-				引用
-			</h4>
-			<p>
-				<blockquote cite="http://nju.today/">
-					This is an example of quotation.
-				</blockquote>
-			</p>
-			<h4>
-				缩写
-			</h4>
-			<p>
-				This is an example of abbreviation: <abbr title="National Basketball Association">NBA</abbr>
-			</p>
-			<h4>
-				引文和定义
-			</h4>
-			<p>
-				An example of citation: <cite>The old man an the sea</cite>.
-				<br />
-				An example of definition: <dfn>E=MC<sup>2</sup></dfn>.
-			</p>
-			<h4>
-				内容的修改
-			</h4>
-			<p>
-				This is an example of <ins>ins</ins> and <del>del</del>.
-				This is an example of <s>s</s>.
-			</p>
+			<div class="Serif">
+				<h4>
+					衬线字体(Serif)、字体大小
+				</h4>
+				<p>
+					With the advent of the computer age, the font has become a part of people's work and life, people will contact it and use it every day. Generally speaking, the birth of a font requires the creative design of the font designer and the stroke-by-stroke production and modification of the font maker. The technical developers encode characters, add program instructions, install libraries, and develop installation programs. The tester performs proofreading, software testing, and compatibility testing on the font, and the production department finalizes the font and finalizes the packaging and marketing. For font manufacturers, what kind of fonts to launch must also go through market research, expert discussions and other links to ensure that the launched font library has market competitiveness. At the same time, the font style and encoding of fonts must also follow the national language. Relevant regulations ensure that font products meet the standards. It takes 2-3 years of hard work to develop a high-quality font library. It is a passionate and creative work that requires all kinds of human, material and financial resources.
+				</p>
+			</div> 
+			<div class="Sans-Serif">
+				<h4>
+					无衬线字体(Sans-Serif)、粗体、斜体
+				</h4>
+				<p>
+					With the advent of the computer age, the font has become a part of people's work and life, people will contact it and use it every day. Generally speaking, the birth of a font requires the creative design of the font designer and the stroke-by-stroke production and modification of the font maker. The technical developers encode characters, add program instructions, install libraries, and develop installation programs. The tester performs proofreading, software testing, and compatibility testing on the font, and the production department finalizes the font and finalizes the packaging and marketing. For font manufacturers, what kind of fonts to launch must also go through market research, expert discussions and other links to ensure that the launched font library has market competitiveness. At the same time, the font style and encoding of fonts must also follow the national language. Relevant regulations ensure that font products meet the standards. It takes 2-3 years of hard work to develop a high-quality font library. It is a passionate and creative work that requires all kinds of human, material and financial resources.
+				</p>
+			</div> 
+			<div class="Monospace">
+				<h4>
+					等宽字体(Monospace)
+				</h4>
+				<p>
+					With the advent of the computer age, the font has become a part of people's work and life, people will contact it and use it every day. Generally speaking, the birth of a font requires the creative design of the font designer and the stroke-by-stroke production and modification of the font maker. The technical developers encode characters, add program instructions, install libraries, and develop installation programs. The tester performs proofreading, software testing, and compatibility testing on the font, and the production department finalizes the font and finalizes the packaging and marketing. For font manufacturers, what kind of fonts to launch must also go through market research, expert discussions and other links to ensure that the launched font library has market competitiveness. At the same time, the font style and encoding of fonts must also follow the national language. Relevant regulations ensure that font products meet the standards. It takes 2-3 years of hard work to develop a high-quality font library. It is a passionate and creative work that requires all kinds of human, material and financial resources.
+				</p>
+			</div> 
+			<div class="Cursive">
+				<h4>
+					草书字体(Cursive)
+				</h4>
+				<p>
+					With the advent of the computer age, the font has become a part of people's work and life, people will contact it and use it every day. Generally speaking, the birth of a font requires the creative design of the font designer and the stroke-by-stroke production and modification of the font maker. The technical developers encode characters, add program instructions, install libraries, and develop installation programs. The tester performs proofreading, software testing, and compatibility testing on the font, and the production department finalizes the font and finalizes the packaging and marketing. For font manufacturers, what kind of fonts to launch must also go through market research, expert discussions and other links to ensure that the launched font library has market competitiveness. At the same time, the font style and encoding of fonts must also follow the national language. Relevant regulations ensure that font products meet the standards. It takes 2-3 years of hard work to develop a high-quality font library. It is a passionate and creative work that requires all kinds of human, material and financial resources.
+				</p>
+			</div> 
+			<div class="Fantasy">
+				<h4>
+					虚幻字体(Fantasy)
+				</h4>
+				<p>
+					With the advent of the computer age, the font has become a part of people's work and life, people will contact it and use it every day. Generally speaking, the birth of a font requires the creative design of the font designer and the stroke-by-stroke production and modification of the font maker. The technical developers encode characters, add program instructions, install libraries, and develop installation programs. The tester performs proofreading, software testing, and compatibility testing on the font, and the production department finalizes the font and finalizes the packaging and marketing. For font manufacturers, what kind of fonts to launch must also go through market research, expert discussions and other links to ensure that the launched font library has market competitiveness. At the same time, the font style and encoding of fonts must also follow the national language. Relevant regulations ensure that font products meet the standards. It takes 2-3 years of hard work to develop a high-quality font library. It is a passionate and creative work that requires all kinds of human, material and financial resources.
+				</p>
+			</div> 
+			<div class="more">
+				<h4>
+					选用更多字体
+				</h4>
+				<p>
+					With the advent of the computer age, the font has become a part of people's work and life, people will contact it and use it every day. Generally speaking, the birth of a font requires the creative design of the font designer and the stroke-by-stroke production and modification of the font maker. The technical developers encode characters, add program instructions, install libraries, and develop installation programs. The tester performs proofreading, software testing, and compatibility testing on the font, and the production department finalizes the font and finalizes the packaging and marketing. For font manufacturers, what kind of fonts to launch must also go through market research, expert discussions and other links to ensure that the launched font library has market competitiveness. At the same time, the font style and encoding of fonts must also follow the national language. Relevant regulations ensure that font products meet the standards. It takes 2-3 years of hard work to develop a high-quality font library. It is a passionate and creative work that requires all kinds of human, material and financial resources.
+				</p>
+			</div>
+			<div>
+				
+			</div>
 		</p>
+		
 	</body>
 </html>

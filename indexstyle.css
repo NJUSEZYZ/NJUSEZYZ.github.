@@ -1,27 +1,40 @@
 body {
-	background-color: rgb(210,210,210);
+	background-color: black;
 	color: white;
 	padding: 20px;
 	font-family: Arial, Verdana, sans-serif;
 	text-align: center;
 	}
-h1,h2 {
-	background-color: rgb(230,230,230);
-	color: #64645A;
+h1 {
+	background-color: rgb(30,30,30);
+	color: white;
+	font-family: Impact;
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 4px;
+	word-spacing: 5px;
+	padding: 15px;
+}
+h2 {
+	background-color: rgb(30,30,30);
+	color: yellow;
 	padding: inherit;
 }
 p {
 	padding: 5px;
 	margin: 0px;
-
+}
+a {
+	color: orange;
 }
 #introduction {
-	color: black;
+	color: orange;
 }
+
 ul {
-	background-color: #fff;
-	background-color: hsla(0,100%,100%,0.5);
-	color: #64645A;
+	background-color: rgb(30,30,30);
+	color: orange;
 	padding: 20px;
 	padding-left: 40px;
 	text-align: left;
