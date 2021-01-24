@@ -7,23 +7,33 @@
 			div.Serif {
 				font-family: Georgia, Times, "Times New Roman", serif;
 				font-size: 150%;
-
+				text-shadow: 1px 1px 2px rgb(0,0,50)
 			}
 			div.Sans-Serif {
 				font-family: Arial, Verdana, Helvetica, sans-serif;
 				font-size: 20px;
 				font-weight: bold;
 				font-style: italic;
+				text-indent: 2em;
 			}
 			div.Monospace {
 				font-family: Courier, "Courier New", monospace;
 				font-size: 14px;
+			}
+			div.Monospace>p:first-letter {
+				font-size: 200%
+			}
+			div.Monospace p:first-line {
+				font-weight: bold;
 			}
 			div.Cursive {
 				font-family: "Comic Sans MS", "Monotype Corsiva", cursive;
 			}
 			div.Fantasy {
 				font-family: Haettenschweiler, Impact, fantasy;
+				line-height: 1.4em;
+				letter-spacing: 0.3em;
+				word-spacing: 1em;
 			}
 			@font-face {
 				font-family: 'ChunkFiveRegular';
@@ -35,10 +45,6 @@
 	     	}
 	     	div.more {
 	     		font-family: ChunkFiveRegular;
-	     	}
-	     	a {
-	     		text-decoration: none;
-	     		color: red;
 	     	}
 		</style>
 	</head>

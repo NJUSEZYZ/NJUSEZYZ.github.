@@ -8,13 +8,13 @@ body {
 h1 {
 	background-color: rgb(30,30,30);
 	color: white;
-	font-family: Impact;
+	font-family: verdana, courier, Impact;
 	font-size: 36px;
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 4px;
-	word-spacing: 5px;
-	padding: 15px;
+	letter-spacing: 0.2em;
+	word-spacing: 0.25em;
+	padding: inherit;
 }
 h2 {
 	background-color: rgb(30,30,30);
@@ -25,16 +25,27 @@ p {
 	padding: 5px;
 	margin: 0px;
 }
-a {
+a:link {
 	color: orange;
+	font-style: italic;
+	text-decoration: none;
 }
+a:visited {
+	color: orange;
+	text-decoration: underline;
+}
+a:hover {
+	color: rgb(255,69,0);
+	text-decoration: underline;
+}
+
 #introduction {
 	color: orange;
 }
 
 ul {
 	background-color: rgb(30,30,30);
-	color: orange;
+	color: rgb(254,254,178);
 	padding: 20px;
 	padding-left: 40px;
 	text-align: left;
