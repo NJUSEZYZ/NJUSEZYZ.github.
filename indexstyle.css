@@ -4,7 +4,8 @@ body {
 	padding: 20px;
 	font-family: Arial, Verdana, sans-serif;
 	text-align: center;
-	}
+}
+
 h1 {
 	background-color: rgb(30,30,30);
 	color: white;
@@ -14,26 +15,37 @@ h1 {
 	font-weight: bold;
 	letter-spacing: 0.2em;
 	word-spacing: 0.25em;
+	
 	padding: inherit;
 }
+
 h2 {
 	background-color: rgb(30,30,30);
 	color: yellow;
 	padding: inherit;
 }
+
 p {
 	padding: 5px;
 	margin: 0px;
 }
+
+button {
+	background-color: rgb(30,30,30);
+	color: orange;
+}
+
 a:link {
 	color: orange;
 	font-style: italic;
 	text-decoration: none;
 }
+
 a:visited {
 	color: orange;
 	text-decoration: underline;
 }
+
 a:hover {
 	color: rgb(255,69,0);
 	text-decoration: underline;
@@ -49,4 +61,9 @@ ul {
 	padding: 20px;
 	padding-left: 40px;
 	text-align: left;
+}
+
+.inner {
+	padding: 5px;
+	padding-left: 30px;
 }

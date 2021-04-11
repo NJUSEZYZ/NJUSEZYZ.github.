@@ -13,14 +13,25 @@
 			Welcome to my first Web
 		</h1>
 		<p id="introduction">
-			This is the first <b>Web page</b> that I created.
+			This is the first <b>Web page</b> that I builded.
 			<br>
 			It is still under building and its main aim is to help me learn HTML, CSS and JavaScript.
 			<br>
-			In the future, these contents will be put into my personal homepage and this website will become the website of my personal homepage
+			In the future, these contents will be put into my personal homepage and this website will become the website of my personal homepage.
 		</p>
 		<p>
 			<a href="#developer">开发者信息</a>
+			<br><br>
+			<button onclick="displayDate()" id="time">北京时间</button>
+			<script type="text/javascript">
+				function displayDate(){
+					var element_time = document.getElementById("time");
+					if (element_time.innerHTML.match("北京时间"))
+						element_time.innerHTML=Date();
+					else
+						element_time.innerHTML="北京时间";	
+				}
+			</script>
 		</p>
 		<h2 id="htmlandcss">
 			HTML 与 CSS 学习目录
@@ -57,14 +68,39 @@
 				<li><a href="src/.html"></a>实用信息</li>
 			</ul>
 		</p>
+		 
 		<h2 id="js">
 			JavaScript 学习目录
 		</h2>
 		<p class="list">
 			<ul type="circle">
-				<li><a href=""></a></li>
+				<li>
+					<a href="https://www.runoob.com/" target="_blank">菜鸟教程</a>
+					<ul class="inner">
+						<li><a href="https://www.runoob.com/js/js-tutorial.html" target="_blank">JavaScript</a></li>
+						<li><a href="https://www.runoob.com/vue2/vue-tutorial.html" target="_blank">Vue.js</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="https://www.w3school.com.cn/index.html" target="_blank">W3school</a>
+				</li>
+				<li>
+					<a href="https://cn.vuejs.org/" target="_blank">Vue.js官网</a>
+				</li>
+				<li>
+					<a href="https://www.imooc.com" target="_blank">慕课网</a>
+					<ul class="inner">
+						<li>
+							<a href="https://www.imooc.com/learn/1091" target="_blank">Vue.js视频</a>
+						</li>
+						<li>
+							<a href="https://www.imooc.com/learn/1173" target="_blank">Vue-cli及项目案例</a>
+						</li>
+					</ul>
+				</li>
 			</ul>
 		</p>
+
 		<p><a href="#top">To The Top</a></p>
 	</body>
 	
@@ -75,7 +111,7 @@
 		</h4>
 		<p> 
 			<a href="mailto:zhaoyuzhou@smail.nju.edu.cn">Email</a>
-			<br />
+			<br>
 			Created by <abbr title="赵宇舟"><i>Z.Y.Z.</i></abbr> from Nanjing University.
 		</p>
 	</address>	
